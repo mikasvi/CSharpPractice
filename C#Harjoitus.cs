@@ -32,12 +32,10 @@ Saat työmarkkinatukea 426.38 euroa kuukaudessa
  
 Haluatko laske työmarkkinatuen uusilla tiedoilla (k/e): e
 */
-namespace Tentti
+namespace Harjoitus
 {
     class Program
     {
-        // jos haluaisi hifistellä, niin tekisi ohjelman sellaiseksi ettei kaatuisi vaikka
-        // syöttäisi mitä, mutta en monimutkaista tätä nyt enempää
         static void KysyTiedot(out int lapset, out int tep, out double palkka, out char asuuKotona)
         {
             Console.Write("Montako lasta sinulla on : ");
